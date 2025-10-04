@@ -1,0 +1,62 @@
+<!--Contact me section html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Malik Khan's Portfolio</title>
+    
+    <!-- Link Base CSS -->
+    <link rel="stylesheet" href="css/base.css">
+
+     <!-- Link Responsive CSS files (desktop, tablet, mobile) -->
+    <link rel="stylesheet" media="(max-width: 600px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(min-width: 601px) and (max-width: 900px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(min-width: 901px)" href="css/desktop.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="logo">
+             <img src="Images/logopic.png" alt="Malik Khan's Portfolio Logo" width="120">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact me section -->
+     <main> 
+        <section class="contactme"> 
+            <h1>Contact Me!</h1> 
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Cell No.:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required> <!--This little part of code requires the phone number to be 10 digits otherwise an error would rise-->
+            
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="myportfoliofooter">
+        <p>Copyright &copy; 2025 Malik Khan</p>
+        <p>Contact me @ malik.khan1@ontariotechu.net</p>
+    </footer>
+</body>
+</html>

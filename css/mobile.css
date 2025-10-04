@@ -1,0 +1,24 @@
+/* Mobile Media Querie */
+@media (max-width: 600px) {
+    .project-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .contactme input,
+    .contactme textarea,
+    .contactme button {
+        width: 100%;
+    }
+    /*Video & Image responsiveness*/
+    video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    } 
+    img {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+    }
+}

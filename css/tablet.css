@@ -1,0 +1,17 @@
+/* Tablet Media Querie*/
+@media (min-width: 601px) and (max-width: 900px) {
+    .project-item {
+        width: 48%;
+    }
+    /*Video & Image responsiveness*/
+    video {
+    width: 90%;
+    height: auto;
+    max-width: 100%;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        max-width: 260px;
+    }
+}

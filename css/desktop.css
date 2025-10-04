@@ -1,0 +1,17 @@
+/* Desktop Media Querie*/
+@media (min-width: 901px) {
+    .project-item {
+        width: 360px;
+    }
+    /*Video & Image responsiveness*/
+    video {
+        width: 800px;
+        max-width: 100%;
+        height: auto;
+    }
+    img {
+        max-width: 260px;
+        width: 100%;
+        height: auto;
+    }
+}

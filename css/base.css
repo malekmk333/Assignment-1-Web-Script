@@ -1,0 +1,139 @@
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Body & Layout*/
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: white;   
+}
+
+/*Header & Navigation*/
+.header {
+    text-align: center;
+    background: linear-gradient(135deg, navy, skyblue);
+    color: white;
+    padding: 20px;
+}
+
+.nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    color: goldenrod;
+}
+
+/*Section Styling */
+.intro, .aboutme, .projects, .contactme {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.intro h1, .aboutme h1, .projects h1, .contactme h1 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    color: navy;
+}
+
+.intro p, .aboutme p, .projects p, .contactme p {
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: black;
+}
+
+/* Projects */
+.project-item {
+    display: inline-block; 
+    vertical-align: top; 
+    width: 360px;
+    background-color: navy; 
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+.projects h1, 
+.projects h2, 
+.projects p {
+    color: white;
+}
+
+
+.projects::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Contact Form */
+.contactme {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: navy;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid navy;
+    margin-bottom: 12px;
+}
+
+
+.contactme button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.contactme button:hover {
+    background-color: navy;
+    color: goldenrod;
+}
+
+
+/* Footer */
+#myportfoliofooter {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 15px;
+}
