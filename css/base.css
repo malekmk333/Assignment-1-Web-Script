@@ -19,7 +19,7 @@ body {
 /*Header & Navigation*/
 .header {
     text-align: center;
-    background: linear-gradient(135deg, navy, skyblue);
+    background: linear-gradient(135deg, navy, skyblue); /* transition of color from navy to skyblue*/
     color: white;
     padding: 20px;
 }
@@ -40,6 +40,7 @@ body {
     font-weight: bold;
 }
 
+/* goldenrod color when mouse is hovering over navigation links*/
 .nav a:hover {
     color: goldenrod;
 }
@@ -124,6 +125,8 @@ input, textarea {
     cursor: pointer;
 }
 
+
+/* goldenrod color when mouse is hovering over submit button*/
 .contactme button:hover {
     background-color: navy;
     color: goldenrod;
@@ -133,7 +136,7 @@ input, textarea {
 /* Footer */
 #myportfoliofooter {
     text-align: center;
-    background: linear-gradient(315deg, navy, skyblue);
+    background: linear-gradient(315deg, navy, skyblue); /* transition of color from skyblue to navy*/
     color: white;
     padding: 15px;
 }
