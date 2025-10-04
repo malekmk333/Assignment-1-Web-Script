@@ -133,7 +133,7 @@ input, textarea {
 /* Footer */
 #myportfoliofooter {
     text-align: center;
-    background-color: navy;
+    background: linear-gradient(315deg, navy, skyblue);
     color: white;
     padding: 15px;
 }
